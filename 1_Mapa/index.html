@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h3 class="title">Precio del tratamiento con Sofosbuvir y tipo de acuerdo negociado</h3>
+        <div id="container1"></div>
+        <table align="center">
+          <tr>
+            <td>
+              <h4 class="subtitle" style="padding:0">Precios con Sofosbuvir durante 12 semanas (en dólares)</h4>
+            </td>
+          </tr>
+        </table>
+        <table align="center" id="dataTable">
+          <thead>
+            <tr>
+              <th colspan="2"><span id="dif">Precio diferenciado</span></th>
+              <th colspan="2"><span id="vol">Licencia voluntaria</span></th>
+              <th colspan="2"><span id="gen">Competencia genérica</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Estados Unidos</td>
+              <td>84.000$</td>
+              <td>Países Menos Adelantados</td>
+              <td>2.000$</td>
+              <td>Bangladesh</td>
+              <td>840$</td>
+            </tr>
+            <tr>
+              <td>Francia</td>
+              <td>61.000$</td>
+            </tr>
+            <tr>
+              <td>Reino Unido</td>
+              <td>54.000$</td>
+            </tr>
+            <tr>
+              <td>España</td>
+              <td>25.000$</td>
+            </tr>
+            <tr>
+              <td>Egipto</td>
+              <td>900$</td>
+            </tr>
+            <tr>
+              <td>India</td>
+              <td>900$</td>
+            </tr>
+          </tbody>
+        </table>
+        <p id="fuente">Fuente: ISGlobal. 2016. Hepatitis C: el nuevo campo de batalla por el acceso a medicamentos esenciales. Informe 25, serie "Innovación y acceso.</p>
+
+
+        <script src="../libs/d3.v3.min.js" charset="utf-8"></script>
+        <script src="../libs/ijs/i.min.js" charset="utf-8"></script>
+        <script src="../libs/utils.js" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+        <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+        <script src="http://d3js.org/d3.geo.polyhedron.v0.min.js"></script>
+        <script src="../libs/datamaps.world.min.js" charset="utf-8"></script>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>

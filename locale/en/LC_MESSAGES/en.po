@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-04-20 10:22+0200\n"
+"PO-Revision-Date: 2016-04-20 10:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: 2_Grafico/index.html\n"
+"X-Poedit-SearchPath-1: 2_Grafico/main.js\n"
+"X-Poedit-SearchPath-2: 1_Mapa\n"
+
+#: 1_Mapa/main.js:11
+msgid "Precio del tratamiento con Sofosbuvir y tipo de acuerdo negociado"
+msgstr ""
+"Price of Treatment with Sofosbuvir and Type of Agreement Negotiated by "
+"Country"
+
+#: 1_Mapa/main.js:12
+msgid "Precios con Sofosbuvir durante 12 semanas (en dólares)"
+msgstr "Price for 12-week course of sofosbuvir (in $US)"
+
+#: 1_Mapa/main.js:13
+msgid "Precio diferenciado"
+msgstr "Differentiated price"
+
+#: 1_Mapa/main.js:14
+msgid "Licencia voluntaria"
+msgstr "Voluntary licence"
+
+#: 1_Mapa/main.js:15
+msgid "Competencia genérica"
+msgstr "Generic competition"
+
+#: 1_Mapa/main.js:16 2_Grafico/main.js:74
+msgid ""
+"Fuente: ISGlobal. 2016. Hepatitis C: el nuevo campo de batalla por el acceso "
+"a medicamentos esenciales. Informe 25, serie \"Innovación y acceso\"."
+msgstr ""
+"Source: ISGlobal. 2016. Hepatitis C: The New Battlefield for Access to "
+"Essential Medicines. Report 25, Innovation and Access series."
+
+#: 1_Mapa/main.js:17
+msgid ""
+"<tr>   <td>Estados Unidos</td>   <td>84.000$</td>   <td>Países Menos "
+"Adelantados</td>   <td>2.000$</td>   <td>Bangladesh</td>   <td>840$</td> </"
+"tr> <tr>   <td>Francia</td>   <td>61.000$</td> </tr> <tr>   <td>Reino Unido</"
+"td>   <td>54.000$</td> </tr> <tr>   <td>España</td>   <td>25.000$</td> </tr> "
+"<tr>   <td>Egipto</td>   <td>900$</td> </tr> <tr>   <td>India</td>   "
+"<td>900$</td> </tr>"
+msgstr ""
+"<tr>   <td>United States of America</td>   <td>84,000$</td>   <td>Least "
+"developed countries</td>   <td>2,000$</td>   <td>Bangladesh</td>   <td>840$</"
+"td> </tr> <tr>   <td>France</td>   <td>61,000$</td> </tr> <tr>   <td>United "
+"Kingdom</td>   <td>54,000$</td> </tr> <tr>   <td>Spain</td>   <td>25,000$</"
+"td> </tr> <tr>   <td>Egypt</td>   <td>900$</td> </tr> <tr>   <td>India</"
+"td>   <td>900$</td> </tr>"
+
+#: 2_Grafico/main.js:13
+msgid "Países con ingresos bajos"
+msgstr "Low-income countries"
+
+#: 2_Grafico/main.js:16
+msgid "Países con ingresos medios"
+msgstr "Middle-income countries"
+
+#: 2_Grafico/main.js:19
+msgid "Países con ingresos altos"
+msgstr "High-income countries"
+
+#: 2_Grafico/main.js:60
+msgid "Incidencia de la hepatitis C"
+msgstr "Incidence of Hepatitis C"
+
+#~ msgid "Fuente: Gràfico de elaboración propia"
+#~ msgstr ""
+#~ "Source: ISGlobal. 2016. Hepatitis C: The New Battlefield for Access to "
+#~ "Essential Medicines. Report 25, Innovation and Access series."
