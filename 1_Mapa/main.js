@@ -213,6 +213,7 @@ d3.selectAll('#dataTable td').on('mouseout',function(){
 })
 
 d3.select('span#dif').on('mouseover',function(){
+  d3.select(this).classed('active',true);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "diferenciado"}
@@ -221,6 +222,7 @@ d3.select('span#dif').on('mouseover',function(){
   v.classed('active',true);
 })
 d3.select('span#dif').on('mouseout',function(){
+  d3.select(this).classed('active',false);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "diferenciado"}
@@ -229,6 +231,7 @@ d3.select('span#dif').on('mouseout',function(){
   v.classed('active',false);
 })
 d3.select('span#gen').on('mouseover',function(){
+  d3.select(this).classed('active',true);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "generica"}
@@ -237,6 +240,7 @@ d3.select('span#gen').on('mouseover',function(){
   v.classed('active',true);
 })
 d3.select('span#gen').on('mouseout',function(){
+  d3.select(this).classed('active',false);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "generica"}
@@ -246,6 +250,7 @@ d3.select('span#gen').on('mouseout',function(){
 })
 
 d3.select('span#vol').on('mouseover',function(){
+  d3.select(this).classed('active',true);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "voluntaria"}
@@ -254,6 +259,7 @@ d3.select('span#vol').on('mouseover',function(){
   v.classed('active',true);
 })
 d3.select('span#vol').on('mouseout',function(){
+  d3.select(this).classed('active',false);
   var v=d3.selectAll("[data-info]")
     .filter(function(d){
       if(d.id==undefined) { return d.fillKey == "voluntaria"}
