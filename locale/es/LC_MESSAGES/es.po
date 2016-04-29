@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-04-29 17:40+0200\n"
+"PO-Revision-Date: 2016-04-29 17:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../../../1_Mapa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: paises.js\n"
+
+#: paises.js:1
+msgid "Central African Republic"
+msgstr "República Central Africana"
+
+#: paises.js:2
+msgid "South Sudan"
+msgstr "Sudán del Sur"
+
+#: paises.js:3
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: paises.js:4
+msgid "Democratic Republic of the Congo"
+msgstr "República Democrática del Congo"
+
+#: paises.js:5
+msgid "United Republic of Tanzania"
+msgstr "Tanzania"
+
+#: paises.js:6
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: paises.js:7
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: paises.js:8
+msgid "Equatorial Guinea"
+msgstr "Guinea Equatorial"
+
+#~ msgid "Democratic Republic of Congo"
+#~ msgstr "República Democrática del Congo"
+
+#~ msgid "República Central Africana"
+#~ msgstr "República Central Africana"

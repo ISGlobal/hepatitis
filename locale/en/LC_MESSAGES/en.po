@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-04-29 10:28+0200\n"
-"PO-Revision-Date: 2016-04-29 10:36+0200\n"
+"POT-Creation-Date: 2016-04-29 18:01+0200\n"
+"PO-Revision-Date: 2016-04-29 18:01+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -46,7 +46,7 @@ msgid ""
 "Fuente: ISGlobal. 2016. Hepatitis C: el nuevo campo de batalla por el acceso a "
 "medicamentos esenciales. Informe 25, serie \"Innovación y acceso\"."
 msgstr ""
-"Source: ISGlobal. 2016. Hepatitis C: The New Battlefield for Access to "
+"Source: ISGlobal. 2016. Hepatitis C: The New Battleground for Access to "
 "Essential Medicines. Report 25, Innovation and Access series."
 
 #: 1_Mapa/main.js:17
@@ -60,7 +60,7 @@ msgid ""
 "tr><tr>  <td class=\"EGY\">Egipto</td>  <td class=\"EGY\">900$</td></tr><tr>  "
 "<td class=\"IND\">India</td>  <td class=\"IND\">900$</td></tr>"
 msgstr ""
-"<tr>   <td class=\"USA\">EUnited States of America</td>   <td class=\"USA"
+"<tr>   <td class=\"USA\">United States of America</td>   <td class=\"USA"
 "\">84.000$</td>   <td class=\"lvoluntaria\">Least developed countries</td>  <td "
 "class=\"lvoluntaria\">2.000$</td>  <td class=\"BGD\">Bangladesh</td>   <td "
 "class=\"BGD\">840$</td> </tr> <tr>   <td class=\"FRA\">France</td>   <td class="
@@ -73,6 +73,11 @@ msgstr ""
 #: 1_Mapa/main.js:60
 msgid "Estados Unidos"
 msgstr "United States of America"
+
+#: 1_Mapa/main.js:60 1_Mapa/main.js:62 1_Mapa/main.js:64 1_Mapa/main.js:66
+#: 1_Mapa/main.js:68 1_Mapa/main.js:70 1_Mapa/main.js:73
+msgid "Precio diferenciado:"
+msgstr "Differentiated price:"
 
 #: 1_Mapa/main.js:62
 msgid "España"
@@ -94,6 +99,14 @@ msgstr "Egypt"
 msgid "India"
 msgstr "India"
 
+#: 1_Mapa/main.js:76
+msgid "Competencia genérica:"
+msgstr "Generic competition:"
+
+#: 1_Mapa/main.js:78
+msgid "Licencia voluntaria:"
+msgstr "Voluntary licence:"
+
 #: 1_Mapa/main.js:136
 msgid "Vanuatu"
 msgstr ""
@@ -114,6 +127,38 @@ msgstr "Solomon Islands"
 msgid "Haiti"
 msgstr ""
 
+#: 1_Mapa/paises.js:1
+msgid "Central African Republic"
+msgstr ""
+
+#: 1_Mapa/paises.js:2
+msgid "South Sudan"
+msgstr ""
+
+#: 1_Mapa/paises.js:3
+msgid "Sierra Leone"
+msgstr ""
+
+#: 1_Mapa/paises.js:4
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: 1_Mapa/paises.js:5
+msgid "United Republic of Tanzania"
+msgstr ""
+
+#: 1_Mapa/paises.js:6
+msgid "Afghanistan"
+msgstr ""
+
+#: 1_Mapa/paises.js:7
+msgid "Cambodia"
+msgstr ""
+
+#: 1_Mapa/paises.js:8
+msgid "Equatorial Guinea"
+msgstr ""
+
 #: 2_Grafico/main.js:13
 msgid "Países con ingresos bajos"
 msgstr "Low-income countries"
@@ -128,8 +173,14 @@ msgstr "High-income countries"
 
 #: 2_Grafico/main.js:60
 msgid ""
-"Distribución de los enfermos de hepatitis C en función de la riqueza del país"
-msgstr "Distribution of Hepatitis C Patients According to the Country's Wealth"
+"Distribución mundial de los enfermos de hepatitis C en función de la riqueza "
+"del país"
+msgstr ""
+"Global Distribution of Hepatitis C Patients According to the Country's Wealth"
+
+#~ msgid ""
+#~ "Distribución de los enfermos de hepatitis C en función de la riqueza del país"
+#~ msgstr "Distribution of Hepatitis C Patients According to the Country's Wealth"
 
 #~ msgid "Solomon Islands"
 #~ msgstr "Solomon Islands"

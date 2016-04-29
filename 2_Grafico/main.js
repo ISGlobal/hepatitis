@@ -27,7 +27,7 @@ var width = 960,
     radius = Math.min(width, height - title - source) / 2;
 
 var color = d3.scale.ordinal()
-    .range(["#8F8139", "#C2A613", "#f59c00"]);
+    .range(["#8F8139", "#f59c00","#C2A613"]);
 
 var arc = d3.svg.arc()
     .outerRadius(radius - 10)
@@ -57,7 +57,7 @@ var svg = container.append("svg")
     .attr("text-anchor", "middle")
     .attr("font-weight", "700")
     .attr("font-size", "18")
-    .text(iJS._("Distribución de los enfermos de hepatitis C en función de la riqueza del país"))
+    .text(iJS._("Distribución mundial de los enfermos de hepatitis C en función de la riqueza del país"))
     .select(function() {
         return this.parentNode;
     })

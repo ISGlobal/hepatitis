@@ -29,7 +29,8 @@ th{
 }
 th span:before{
   content: '\25A0';
-  font-size: large;
+  /*font-size: large;*/
+  font-size: 3vw;
   margin: .1vw;
 }
 #dataTable{
@@ -44,7 +45,8 @@ th span:before{
 }
 #gen{
   /*color: #af9959*/
-    color: #8F8139
+    /*color: #8F8139*/
+    color: #00bff7
 }
 td, th{
   /*padding: 1px 20px;*/
@@ -71,6 +73,9 @@ path.active,
 circle.active{
   stroke-width: 2 !important;
   stroke: rgb(0, 0, 0) !important;
+}
+table td.active{
+  font-weight:700;
 }
 /*body{
   height: 0;
