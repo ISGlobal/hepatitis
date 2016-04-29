@@ -14,10 +14,10 @@ var data = [{
     value: 12
 }, {
     type: iJS._("Países con ingresos medios"),
-    value: 14
+    value: 74
 }, {
     type: iJS._("Países con ingresos altos"),
-    value: 74
+    value: 14
 }, ];
 
 var width = 960,
@@ -27,7 +27,7 @@ var width = 960,
     radius = Math.min(width, height - title - source) / 2;
 
 var color = d3.scale.ordinal()
-    .range(["#af9959", "#d7ae1c", "#f59c00"]);
+    .range(["#8F8139", "#C2A613", "#f59c00"]);
 
 var arc = d3.svg.arc()
     .outerRadius(radius - 10)
@@ -57,7 +57,7 @@ var svg = container.append("svg")
     .attr("text-anchor", "middle")
     .attr("font-weight", "700")
     .attr("font-size", "18")
-    .text(iJS._("Incidencia de la hepatitis C"))
+    .text(iJS._("Distribución de los enfermos de hepatitis C en función de la riqueza del país"))
     .select(function() {
         return this.parentNode;
     })

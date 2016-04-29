@@ -13,9 +13,10 @@ h3{
   padding:0;
 }
 h4{
-font-size: 2.6vw;
+font-size: 2.1vw;
 margin:0;
-padding:0;
+/*padding:0;*/
+padding: 0 .5vw;
 }
 table{
     align: center;
@@ -38,23 +39,38 @@ th span:before{
   color: #f59c00
 }
 #vol{
-  color: #d7ae1c
+  /*color: #d7ae1c*/
+    color: #C2A613
 }
 #gen{
-  color: #af9959
+  /*color: #af9959*/
+    color: #8F8139
 }
 td, th{
   /*padding: 1px 20px;*/
   padding: .5vw .5vw;
 
 }
-h4{
+/*h4{
   padding: 0 .5vw;
-}
+}*/
 #fuente{
   text-align: right;
   padding: 0 .5vw;
   font-size: 1.5vw;
+  font-style:italic;
+}
+
+.hoverinfo h5{
+  margin:0;
+  padding:0;
+  font-size: 1.15vw;
+}
+
+path.active,
+circle.active{
+  stroke-width: 2 !important;
+  stroke: rgb(0, 0, 0) !important;
 }
 /*body{
   height: 0;
