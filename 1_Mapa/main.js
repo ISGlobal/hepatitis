@@ -57,13 +57,13 @@ var map = new Datamap({
           // console.log(data)
           if(data.fillKey=='diferenciado'){
             if(geography.properties.name=='United States of America'){
-              return '<div class="hoverinfo"><h5>'+iJS._("Estados Unidos")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong> 84.000$</div>';
+              return '<div class="hoverinfo"><h5>'+iJS._("Estados Unidos")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong> '+iJS._("84.000$")+'</div>';
             }else if(geography.properties.name=='Spain'){
-              return '<div class="hoverinfo"><h5>'+iJS._("España")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: 25.000$</div>';
+              return '<div class="hoverinfo"><h5>'+iJS._("España")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("25.000$")+'</div>';
             }else if(geography.properties.name=='France'){
-              return '<div class="hoverinfo"><h5>'+iJS._("Francia")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: 61.000$</div>';
+              return '<div class="hoverinfo"><h5>'+iJS._("Francia")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("61.000$")+'</div>';
             }else if(geography.properties.name=='United Kingdom'){
-              return '<div class="hoverinfo"><h5>'+iJS._("Reino Unido")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: 54.000$</div>';
+              return '<div class="hoverinfo"><h5>'+iJS._("Reino Unido")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("54.000$")+'</div>';
             }else if(geography.properties.name=='Egypt'){
               return '<div class="hoverinfo"><h5>'+iJS._("Egipto")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: 900$</div>';
             }else if(geography.properties.name=='India'){
@@ -75,7 +75,7 @@ var map = new Datamap({
           }else if(data.fillKey=='generica'){
             return '<div class="hoverinfo"><h5>'+iJS._(geography.properties.name)+'</h5><strong>'+iJS._("Competencia genérica:")+'</strong> 840$</div>';
           }else if(data.fillKey=='voluntaria'){
-            return '<div class="hoverinfo"><h5>'+iJS._(geography.properties.name)+'</h5><strong>'+iJS._("Licencia voluntaria:")+'</strong> 2.000$</div>';
+            return '<div class="hoverinfo"><h5>'+iJS._(geography.properties.name)+'</h5><strong>'+iJS._("Licencia voluntaria:")+'</strong> '+iJS._("2.000$")+'</div>';
           }
         }
       },
@@ -170,7 +170,7 @@ map.bubbles([
   }
 ], {
   popupTemplate: function(geo, data) {
-    return '<div class="hoverinfo"><h5>'+iJS._(data.name)+'</h5><strong>Licencia voluntaria:</strong> 2.000$</div>';
+    return '<div class="hoverinfo"><h5>'+iJS._(data.name)+'</h5>'+iJS._("<strong>Licencia voluntaria:</strong> 2.000$")+'</div>';
   }
 });
 window.addEventListener('resize', function(event){

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-04-29 18:01+0200\n"
-"PO-Revision-Date: 2016-04-29 18:01+0200\n"
+"POT-Creation-Date: 2016-05-03 08:43+0200\n"
+"PO-Revision-Date: 2016-05-03 08:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -61,12 +61,12 @@ msgid ""
 "<td class=\"IND\">India</td>  <td class=\"IND\">900$</td></tr>"
 msgstr ""
 "<tr>   <td class=\"USA\">United States of America</td>   <td class=\"USA"
-"\">84.000$</td>   <td class=\"lvoluntaria\">Least developed countries</td>  <td "
-"class=\"lvoluntaria\">2.000$</td>  <td class=\"BGD\">Bangladesh</td>   <td "
+"\">84,000$</td>   <td class=\"lvoluntaria\">Least developed countries</td>  <td "
+"class=\"lvoluntaria\">2,000$</td>  <td class=\"BGD\">Bangladesh</td>   <td "
 "class=\"BGD\">840$</td> </tr> <tr>   <td class=\"FRA\">France</td>   <td class="
-"\"FRA\">61.000$</td> </tr> <tr>   <td class=\"GBR\">United Kingdom</td>   <td "
-"class=\"GBR\">54.000$</td></tr><tr>  <td class=\"ESP\">Spain</td>  <td class="
-"\"ESP\">25.000$</td></tr><tr>  <td class=\"EGY\">Egypt</td>  <td class=\"EGY"
+"\"FRA\">61,000$</td> </tr> <tr>   <td class=\"GBR\">United Kingdom</td>   <td "
+"class=\"GBR\">54,000$</td></tr><tr>  <td class=\"ESP\">Spain</td>  <td class="
+"\"ESP\">25,000$</td></tr><tr>  <td class=\"EGY\">Egypt</td>  <td class=\"EGY"
 "\">900$</td></tr><tr>  <td class=\"IND\">India</td>  <td class=\"IND\">900$</"
 "td></tr>"
 
@@ -79,17 +79,33 @@ msgstr "United States of America"
 msgid "Precio diferenciado:"
 msgstr "Differentiated price:"
 
+#: 1_Mapa/main.js:60
+msgid "84.000$"
+msgstr "84,000$"
+
 #: 1_Mapa/main.js:62
 msgid "España"
 msgstr "Spain"
+
+#: 1_Mapa/main.js:62
+msgid "25.000$"
+msgstr "25,000$"
 
 #: 1_Mapa/main.js:64
 msgid "Francia"
 msgstr "France"
 
+#: 1_Mapa/main.js:64
+msgid "61.000$"
+msgstr "61,000$"
+
 #: 1_Mapa/main.js:66
 msgid "Reino Unido"
 msgstr "United Kingdom"
+
+#: 1_Mapa/main.js:66
+msgid "54.000$"
+msgstr "54,000$"
 
 #: 1_Mapa/main.js:68
 msgid "Egipto"
@@ -107,25 +123,33 @@ msgstr "Generic competition:"
 msgid "Licencia voluntaria:"
 msgstr "Voluntary licence:"
 
-#: 1_Mapa/main.js:136
+#: 1_Mapa/main.js:78
+msgid "2.000$"
+msgstr "2,000$"
+
+#: 1_Mapa/main.js:137
 msgid "Vanuatu"
 msgstr ""
 
-#: 1_Mapa/main.js:145
+#: 1_Mapa/main.js:146
 msgid "Tuvalu"
 msgstr ""
 
-#: 1_Mapa/main.js:153
+#: 1_Mapa/main.js:154
 msgid "Kiribati"
 msgstr ""
 
-#: 1_Mapa/main.js:159
+#: 1_Mapa/main.js:160
 msgid "Islas Salomón"
 msgstr "Solomon Islands"
 
-#: 1_Mapa/main.js:165
+#: 1_Mapa/main.js:166 1_Mapa/paises.js:10
 msgid "Haiti"
 msgstr ""
+
+#: 1_Mapa/main.js:173
+msgid "<strong>Licencia voluntaria:</strong> 2.000$"
+msgstr "<strong>Voluntary licence</strong> 2,000$"
 
 #: 1_Mapa/paises.js:1
 msgid "Central African Republic"
@@ -157,6 +181,10 @@ msgstr ""
 
 #: 1_Mapa/paises.js:8
 msgid "Equatorial Guinea"
+msgstr ""
+
+#: 1_Mapa/paises.js:9
+msgid "Sudan"
 msgstr ""
 
 #: 2_Grafico/main.js:13

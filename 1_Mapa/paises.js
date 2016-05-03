@@ -6,3 +6,5 @@ iJS._("United Republic of Tanzania");
 iJS._("Afghanistan");
 iJS._("Cambodia");
 iJS._("Equatorial Guinea");
+iJS._("Sudan");
+iJS._("Haiti");
