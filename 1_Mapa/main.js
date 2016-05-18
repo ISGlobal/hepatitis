@@ -32,7 +32,7 @@ d3.select('#dataTable tbody').html(iJS._('<tr> \
 </tr>\
 <tr>\
   <td class="ESP">España</td>\
-  <td class="ESP">25.000$</td>\
+  <td class="ESP">28.000$</td>\
 </tr>\
 <tr>\
   <td class="EGY">Egipto</td>\
@@ -59,7 +59,7 @@ var map = new Datamap({
             if(geography.properties.name=='United States of America'){
               return '<div class="hoverinfo"><h5>'+iJS._("Estados Unidos")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong> '+iJS._("84.000$")+'</div>';
             }else if(geography.properties.name=='Spain'){
-              return '<div class="hoverinfo"><h5>'+iJS._("España")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("25.000$")+'</div>';
+              return '<div class="hoverinfo"><h5>'+iJS._("España")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("28.000$")+'</div>';
             }else if(geography.properties.name=='France'){
               return '<div class="hoverinfo"><h5>'+iJS._("Francia")+'</h5><strong>'+iJS._("Precio diferenciado:")+'</strong>: '+iJS._("61.000$")+'</div>';
             }else if(geography.properties.name=='United Kingdom'){
